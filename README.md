@@ -2,7 +2,8 @@
 
 findU is an innovative fashion platform that combines image-based outfit search, outfit inspiration boards, and custom outfit design capabilities. The app helps users discover, design, and shop for fashion items across multiple platforms.
 
-## Features
+
+<!-- ## Features
 
 ### 1. Image-Based Outfit Search
 - Upload outfit images to find similar products
@@ -42,7 +43,7 @@ findU is an innovative fashion platform that combines image-based outfit search,
 ### 8. Geo-Based Shopping
 - Region-specific product availability
 - Local platform integration
-- Global shopping options
+- Global shopping options -->
 
 ## Technical Requirements
 

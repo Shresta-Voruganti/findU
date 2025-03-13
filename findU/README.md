@@ -2,7 +2,7 @@
 
 findU is an iOS application that combines social fashion design with a marketplace, allowing users to create, share, and sell their fashion designs while integrating with Instagram for enhanced social features.
 
-## Features
+<!-- ## Features
 
 ### Design Creation
 - Create custom outfit designs using the built-in design tool
@@ -25,7 +25,7 @@ findU is an iOS application that combines social fashion design with a marketpla
 - Verified creator status
 - Portfolio showcase
 - Reviews and ratings
-- Sales tracking and analytics
+- Sales tracking and analytics -->
 
 ## Requirements
 
