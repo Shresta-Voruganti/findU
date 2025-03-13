@@ -1,0 +1,63 @@
+User
+    username - String
+    email - String
+    profileImage - Binary
+    bio - String
+    createdAt - Date
+    updatedAt - Date
+    posts - Post (to-many)
+    designs - Design (to-many)
+    wishlist - Product (to-many)
+    followers - User (to-many)
+    following - User (to-many)
+
+Post
+    id - String
+    content - String
+    imageURLs - Transformable
+    createdAt - Date
+    updatedAt - Date
+    likes - Integer 32
+    user - User (to-one)
+    comments - Comment (to-many)
+
+Comment
+    id - String
+    content - String
+    createdAt - Date
+    user - User (to-one)
+    post - Post (to-one)
+
+Design
+    id - String
+    name - String
+    imageURL - String
+    createdAt - Date
+    updatedAt - Date
+    user - User (to-one)
+    products - Product (to-many)
+
+Product
+    id - String
+    name - String
+    description - String
+    price - Decimal
+    imageURLs - Transformable
+    category - String
+    brand - String
+    createdAt - Date
+    updatedAt - Date
+    designs - Design (to-many)
+    wishlistedBy - User (to-many)
+
+Category
+    id - String
+    name - String
+    imageURL - String
+    products - Product (to-many)
+
+Brand
+    id - String
+    name - String
+    logoURL - String
+    products - Product (to-many) 
